@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSS-Faculties</title>
+    <link rel="stylesheet" href="Faculties.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="main">
+        <div id="main1">
+            <a href="home.html"><i class="ri-home-2-line"></i> Home
+            </a>
+            <a href="About.html">
+                About Us
+            </a>
+            <a href="">
+                Facilities<i class="ri-arrow-drop-down-fill"></i>
+            </a>
+            <a href="Faculties.html">
+                Mentors
+            </a>
+        </div>
+        <div id="main2">
+            <a href="register.html" class="c"> <button class="a">Sign in </button></a>
+            <a href="register.html" class="d"> <button class="b">Register</button></a>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div id="search-container">
+            <input type="search" id="search-input" placeholder="Search top level Mentors.. ">
+            <button id="search"><i class="ri-search-line"></i></button>
+        </div>
+        <div id="buttons">
+            <button class="button-value" onclick="filterSubject('all')">ALL</button>
+            <button class="button-value" onclick="filterSubject('H.O.D')">H.O.D</button>
+            <button class="button-value" onclick="filterSubject('Mathematics')">Mathematics</button>
+            <button class="button-value" onclick="filterSubject('O.Mathematics')">O.Mathematics</button>
+            <button class="button-value" onclick="filterSubject('English')">English</button>
+            <button class="button-value" onclick="filterSubject('Nepali')">Nepali</button>
+            <button class="button-value" onclick="filterSubject('Social Studies')">Social Studies</button>
+            <button class="button-value" onclick="filterSubject('Science')">Science</button>
+            <button class="button-value" onclick="filterSubject('Computer')">Computer</button>
+            <button class="button-value" onclick="filterSubject('Accountancy')">Accountancy</button>
+        </div>
+        <div id="teachers">
+        </div>
+    </div>
+    <script src="Faculties.js"></script>
+</body>
+</html>
